@@ -1,38 +1,238 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Jeff's Easy Banking
+A modern, AI-powered banking dashboard that helps users manage their accounts, track expenses, visualize financial data, and receive personalized financial advice.
 
-## Getting Started
+## Overview
+Jeff's Easy Banking is a Next.js application that simulates a banking interface with intelligent features. It provides users with a comprehensive view of their financial accounts, transaction history, spending patterns, and loan progress. The standout feature is an AI assistant named "Jeff" who can analyze your financial data and provide personalized advice through a chat interface.
 
-First, run the development server:
+## Features
 
+* **Multi-Account Management:** Switch between different account types (credit, savings, checking)
+* **Financial Dashboard:** View account balances, reward points, and recent transactions
+* **Transaction History:** Track income and expenses with detailed transaction listings
+* **Data Visualization:** Interactive charts showing spending and income trends
+* **Loan Progress Tracking:** Visual representation of loan repayment progress
+* **AI-Powered Financial Assistant:** Chat with "Jeff" who can:
+  * Generate personalized budgets
+  * Recommend ways to save money
+  * Suggest cheaper alternatives for frequent expenses
+  * Provide general financial planning advice
+  * Analyze spending habits and offer improvements
+
+## Technology Stack
+
+Frontend Framework: Next.js
+UI Libraries:
+
+Tailwind CSS for styling
+Mantine UI for components
+ChatScope for chat interface
+
+
+## State Management: Jotai
+Data Visualization: Chart.js with react-chartjs-2
+Date Handling: Day.js
+AI Integration: OpenAI API (GPT-3.5 Turbo)
+
+## Installation
+
+Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/yourusername/jeffs-easy-banking.git
+cd jeffs-easy-banking
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+npm install
+# or
+pnpm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Set up your OpenAI API key:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Create a .env.local file in the root directory
+Add your OpenAI API key: OPENAI_API_KEY=your-api-key-here
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+Run the development server:
+bashCopynpm run dev
+# or
+pnpm dev
 
-To learn more about Next.js, take a look at the following resources:
+Open http://localhost:3000 in your browser to see the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Usage
+Dashboard
+The main dashboard displays your current account information including:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Account balance
+Reward points
+Latest expenses
+Income and spending chart
+Transaction history
 
-## Deploy on Vercel
+Use the navbar on the left to switch between different accounts and navigate to other sections of the app.
+Loan Progress
+The loans page shows visual progress bars for each of your active loans with information about:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Total loan amount
+Remaining balance
+Monthly payment amount
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+AI Assistant Chat
+In the chat section, you can interact with "Jeff", your AI financial assistant:
+
+Select from the available financial advice options:
+
+Generate a budget
+Recommend ways to save money
+Find cheaper alternatives for spending habits
+Get a general budget plan
+Receive advice on spending habits
+
+
+The assistant will analyze your financial data and provide personalized recommendations and advice.
+You can ask follow-up questions or return to the options menu to ask different questions.
+
+Technical Skills Learned
+Building this application demonstrates proficiency in:
+
+React Component Architecture: Creating reusable UI components with proper state and prop management
+Next.js Framework: Leveraging Next.js for routing, API routes, and project structure
+State Management with Jotai: Using Jotai's atomic approach for efficient state management
+... (23 lines left)
+Collapse
+message.txt
+5 KB
+﻿
+MightyOwl
+_mighty_owl
+ 
+ 
+ 
+Jeff's Easy Banking
+A modern, AI-powered banking dashboard that helps users manage their accounts, track expenses, visualize financial data, and receive personalized financial advice.
+Show Image
+Overview
+Jeff's Easy Banking is a Next.js application that simulates a banking interface with intelligent features. It provides users with a comprehensive view of their financial accounts, transaction history, spending patterns, and loan progress. The standout feature is an AI assistant named "Jeff" who can analyze your financial data and provide personalized advice through a chat interface.
+Features
+
+Multi-Account Management: Switch between different account types (credit, savings, checking)
+Financial Dashboard: View account balances, reward points, and recent transactions
+Transaction History: Track income and expenses with detailed transaction listings
+Data Visualization: Interactive charts showing spending and income trends
+Loan Progress Tracking: Visual representation of loan repayment progress
+AI-Powered Financial Assistant: Chat with "Jeff" who can:
+
+Generate personalized budgets
+Recommend ways to save money
+Suggest cheaper alternatives for frequent expenses
+Provide general financial planning advice
+Analyze spending habits and offer improvements
+
+
+
+Technology Stack
+
+Frontend Framework: Next.js
+UI Libraries:
+
+Tailwind CSS for styling
+Mantine UI for components
+ChatScope for chat interface
+
+
+State Management: Jotai
+Data Visualization: Chart.js with react-chartjs-2
+Date Handling: Day.js
+AI Integration: OpenAI API (GPT-3.5 Turbo)
+
+Installation
+
+Clone the repository:
+bashCopygit clone https://github.com/yourusername/jeffs-easy-banking.git
+cd jeffs-easy-banking
+
+Install dependencies:
+bashCopynpm install
+# or
+pnpm install
+
+Set up your OpenAI API key:
+
+Create a .env.local file in the root directory
+Add your OpenAI API key: OPENAI_API_KEY=your-api-key-here
+
+
+Run the development server:
+bashCopynpm run dev
+# or
+pnpm dev
+
+Open http://localhost:3000 in your browser to see the application.
+
+Usage
+Dashboard
+The main dashboard displays your current account information including:
+
+Account balance
+Reward points
+Latest expenses
+Income and spending chart
+Transaction history
+
+Use the navbar on the left to switch between different accounts and navigate to other sections of the app.
+Loan Progress
+The loans page shows visual progress bars for each of your active loans with information about:
+
+Total loan amount
+Remaining balance
+Monthly payment amount
+
+AI Assistant Chat
+In the chat section, you can interact with "Jeff", your AI financial assistant:
+
+Select from the available financial advice options:
+
+Generate a budget
+Recommend ways to save money
+Find cheaper alternatives for spending habits
+Get a general budget plan
+Receive advice on spending habits
+
+
+The assistant will analyze your financial data and provide personalized recommendations and advice.
+You can ask follow-up questions or return to the options menu to ask different questions.
+
+Technical Skills Learned
+Building this application demonstrates proficiency in:
+
+React Component Architecture: Creating reusable UI components with proper state and prop management
+Next.js Framework: Leveraging Next.js for routing, API routes, and project structure
+State Management with Jotai: Using Jotai's atomic approach for efficient state management
+Data Visualization: Implementing interactive charts with Chart.js and react-chartjs-2
+AI Integration: Connecting to and utilizing the OpenAI API for intelligent features
+UI Framework Integration: Working with Mantine UI components for a consistent design
+Responsive Design: Creating a mobile-friendly interface with Tailwind CSS
+Data Transformation: Converting and manipulating financial data for visualization and analysis
+Date Handling: Working with dates for transactions and time-series data
+
+Future Improvements
+
+Add authentication system
+Implement real-time data fetching from banking APIs
+Add budget tracking features
+Expand AI capabilities with financial forecasting
+Add mobile app versions
+
+Credits
+
+Built by [Your Name]
+AI assistance powered by OpenAI's GPT-3.5 Turbo
+UI components from Mantine UI and ChatScope
+
+License
+MIT
+message.txt
+5 KB
